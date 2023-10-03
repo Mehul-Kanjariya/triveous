@@ -58,3 +58,5 @@ Protected route Authentication required
 - Login - POST Method - `/users/register `\
     body - `{email: String
              pass: String}`
+
+## Note:- Token is required in headers, Authorization for protected routes.
