@@ -18,16 +18,16 @@ It runs the server in the development mode.\
 - Product list - GET Method - `/products`
 - View Product - GET Method - `/products/:id`
 - Add Product - POST Method - `/products/add` (Protected route Authentication required)\
-    body - `{title: String,\ 
-             price: Number,\ 
-             category: String,\
-             description: String,\
+    body - `{title: String, 
+             price: Number,
+             category: String,
+             description: String,
              availability: Boolean}`
 - Update Product - PATCH Method - `/products/update/:productID` (Protected route Authentication required)\
-    body - `{title: String,\ 
-             price: Number,\ 
-             category: String,\
-             description: String,\
+    body - `{title: String, 
+             price: Number, 
+             category: String,
+             description: String,
              availability: Boolean}`
 - Remove Product - DELETE Method - `/products/delete/:productID` (Protected route Authentication required)
 
@@ -35,11 +35,11 @@ It runs the server in the development mode.\
 Protected route Authentication required
 - View Cart - GET Method - `/cart`
 - Add to Cart - POST Method - `/cart/add`\
-    body - `{title: String,\ 
-             price: Number,\ 
-             category: String,\
-             description: String,\
-             availability: Boolean,\
+    body - `{title: String, 
+             price: Number, 
+             category: String,
+             description: String,
+             availability: Boolean,
              quantity: Number} `
 - Update Quantities - PATCH Method - `/cart/update/:productID`\
     body - `{quantity: Number} `
@@ -53,8 +53,8 @@ Protected route Authentication required
 
 ### USER
 - Register - POST Method - `/users/register`\
-    body - `{email: String\
+    body - `{email: String
              pass: String}`
 - Login - POST Method - `/users/register `\
-    body - `{email: String\
+    body - `{email: String
              pass: String}`
